@@ -87,7 +87,7 @@
             </td>
         </tr>
     </table>
-    <asp:Button ID="Button1" runat="server" Text="Button" />
+    <asp:Button ID="Button1" runat="server" Text="Button" onclick="Button1_Click" />
     <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
     </form>
 </body>
