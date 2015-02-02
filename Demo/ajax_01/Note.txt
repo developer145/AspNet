@@ -1,0 +1,13 @@
+﻿Add ajax control toolkit in toolbox
+
+http://stackoverflow.com/questions/15258994/how-to-add-ajaxcontroltoolkit-to-toolbox-in-vs-2012
+
+In order to use Ajax control toolkit,
+
+Don't add script manager via Ajax extention as
+
+<asp:ScriptManager ID="ScriptManager" runat="server"></asp:ScriptManager>
+
+but add the following so that ajax toolkit can recognise correctly
+
+<ajaxToolkit:ToolkitScriptManager runat="server" ID="ajaxScriptManager" EnablePartialRendering="true" CombineScripts="false" />  

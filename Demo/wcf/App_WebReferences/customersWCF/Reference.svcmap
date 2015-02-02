@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="30ec84ec-816e-4825-bc36-c1fda2ce2081" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1112/services/customers.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Customers.wsdl" MetadataType="Wsdl" ID="df742f38-dbcc-4208-85bd-820a736c6a62" SourceId="1" SourceUrl="http://localhost:1112/Services/Customers.svc?wsdl" />
+    <MetadataFile FileName="Customers.xsd" MetadataType="Schema" ID="3093e3b2-6b76-4893-8fb1-cfd3db338403" SourceId="1" SourceUrl="http://localhost:1112/Services/Customers.svc?xsd=xsd1" />
+    <MetadataFile FileName="Customers1.xsd" MetadataType="Schema" ID="6721954f-dc86-4b6c-8671-fed9b3309a57" SourceId="1" SourceUrl="http://localhost:1112/Services/Customers.svc?xsd=xsd0" />
+    <MetadataFile FileName="Customers.disco" MetadataType="Disco" ID="815dce83-d5a8-4867-a9f2-e22ba2cdeb9b" SourceId="1" SourceUrl="http://localhost:1112/Services/Customers.svc?disco" />
+    <MetadataFile FileName="Customers2.xsd" MetadataType="Schema" ID="354ffe20-c274-424b-b705-0b23b23ceeed" SourceId="1" SourceUrl="http://localhost:1112/Services/Customers.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
